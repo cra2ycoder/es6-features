@@ -39,4 +39,45 @@ function doTestScopeVariables() {
 }
 
 // console.log("const: " + a); // const: 10
-doTestScopeVariables();
+// doTestScopeVariables();
+
+/**
+ *
+ */
+var x = 1;
+function doTestVarAndLet() {
+  /**
+   * @error
+   * console.log("var -> x: " + x);
+   * ReferenceError: x is not defined
+   */
+  //   console.log("var -> x: " + x);
+
+  let x = 2;
+  console.log("let -> x: " + x);
+}
+
+// doTestVarAndLet();
+
+var m = 0;
+function doTestVarAndLetInReturn(isFlag) {
+  /**
+   * enabling the below will give the different result
+   */
+  var m;
+
+  if (isFlag) {
+    let m = 1;
+    console.log("isFlag:true -> m: " + m); // 1
+    return m;
+  }
+
+  return m;
+}
+
+var n = doTestVarAndLetInReturn(false);
+console.log("return -> n:" + n);
+// if inner var m; is enabled then -> undefined else 0
+
+var o = doTestVarAndLetInReturn(true);
+console.log("return -> o:" + o); // 1

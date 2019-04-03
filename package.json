@@ -4,7 +4,7 @@
   "description": "learning es6 features by doing examples",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,10 @@
     "url": "https://github.com/cra2ycoder/es6/issues"
   },
   "homepage": "https://github.com/cra2ycoder/es6#readme",
-  "dependencies": {
-    "@babel/cli": "^7.4.3"
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3"
   }
 }

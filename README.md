@@ -1,5 +1,6 @@
-# es6
-learning es6 features
+# ECMASCRIPT (es6)
+
+**learning es6 features**
 
 * Scope level variables (const and let)
 * Arrow Functions

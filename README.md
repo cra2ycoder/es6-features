@@ -1,6 +1,6 @@
 # ECMASCRIPT (es6)
 
-**learning es6 features**
+**learning es6 features:**
 
 * Scope level variables (const and let)
 * Arrow Functions
@@ -13,3 +13,9 @@
 * Classes
 * Promises
 * Async and Await
+
+**reference links:**
+
+* http://es6-features.org/
+* http://exploringjs.com/es6/
+* https://medium.freecodecamp.org/write-less-do-more-with-javascript-es6-5fd4a8e50ee2

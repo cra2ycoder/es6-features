@@ -15,6 +15,13 @@ const a = 10;
 // var a = 10;
 
 function doTestScopeVariables() {
+  /**
+   * @note
+   * the below console will print `undefined`
+   * as var has the same variable name
+   */
+  console.log("const: " + a);
+
   var a = 1;
 
   /**
@@ -25,7 +32,11 @@ function doTestScopeVariables() {
   //   console.log("let: " + a);
 
   console.log("var: " + a);
+
+  // const value will not be printed here, local variable will be taken
+  // as it same variable name
+  console.log("const: " + a);
 }
 
-console.log(a);
+// console.log("const: " + a); // const: 10
 doTestScopeVariables();

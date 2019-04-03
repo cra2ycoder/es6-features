@@ -89,3 +89,24 @@ npm install @babel/preset-env --save-dev
   "presets": ["@babel/preset-env"]
 }
 ```
+
+- now, run the same command `npm run build`
+- and verify that, there will be `lib` folder created and you can see the compiled results in the file(s).
+
+**if you wanted to watch the files changes**
+
+- add the following `scripts` into your `package.json` file
+
+```
+"scripts": {
+    "watch": "babel -w src -d lib"
+}
+```
+
+- then run the following command
+
+```
+npm run watch
+```
+
+- Now, you will be able see the changes instantly

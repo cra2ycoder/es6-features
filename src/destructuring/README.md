@@ -23,3 +23,27 @@ var a = 1,
     d = 4,
     rest = [5, 6, 7, 8, 9, 10];
 ```
+
+# Object
+
+```
+var data = {
+  name: "es6",
+  concept: "destructure",
+  version: 6.0,
+  language: "javascript",
+  isJava: false
+};
+```
+
+```
+// ES6
+var { name, version } = data;
+```
+
+```
+// ES5
+// basic assignment
+var name = data.name,
+    version = data.version;
+```

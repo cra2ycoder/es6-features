@@ -4,6 +4,10 @@
 - its an javascript expression
 - that helps to unpack the values from Array and Object - to distinct variables
 
+# Reference Links
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
 # Array
 
 ```

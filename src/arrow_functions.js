@@ -38,7 +38,7 @@ const withMultipleStatements = () => {
   var a = 1;
   var b = 2;
   var c = 3;
-  return 1 + 2 + 3;
+  return a + b + c;
 };
 
 console.log(withMultipleStatements()); // 6

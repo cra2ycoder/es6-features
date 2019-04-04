@@ -1,10 +1,7 @@
-#description
-
-**modules**
+# modules
 
 - refers to small units of independent functions and reusable code
-  each
-- modules can be imported and exported by using the below syntax
+- each modules can be imported and exported by using the below syntax
 
 **import**
 

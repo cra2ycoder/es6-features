@@ -1,26 +1,27 @@
 {
-  "name": "learning-es6",
-  "version": "0.0.1",
-  "description": "learning es6 features by doing examples",
-  "main": "index.js",
-  "scripts": {
-    "watch": "babel -w src -d lib",
-    "build": "babel src -d lib"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://cra2ycoder@github.com/cra2ycoder/es6.git"
-  },
-  "author": "cra2ycoder",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cra2ycoder/es6/issues"
-  },
-  "homepage": "https://github.com/cra2ycoder/es6#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3"
-  }
+    "name": "learning-es6",
+    "version": "0.0.1",
+    "description": "learning es6 features by doing examples",
+    "main": "index.js",
+    "scripts": {
+        "watch": "babel -w src -d dist",
+        "build": "babel src -d dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://cra2ycoder@github.com/cra2ycoder/es6.git"
+    },
+    "author": "cra2ycoder",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cra2ycoder/es6/issues"
+    },
+    "homepage": "https://github.com/cra2ycoder/es6#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/cli": "^7.4.3",
+        "@babel/core": "^7.4.3",
+        "@babel/node": "7.2.2",
+        "@babel/preset-env": "^7.4.3"
+    }
 }

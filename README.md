@@ -127,3 +127,13 @@ node index.js
 ```
 ./node_modules/.bin/babel-node src/destructuring/<%FILE_NAME%>.sj
 ```
+
+-   using make file
+
+```
+syntax:
+make dev FILE_NAME=<%FOLDER_NAME%>/<%FILE_NAME%>.js
+
+example:
+make dev FILE_NAME=destructuring/array.js
+```

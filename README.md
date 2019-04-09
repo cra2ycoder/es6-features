@@ -121,12 +121,14 @@ npm run watch
 ```
 node index.js
 ```
+**Note:** using node will throw errors when you are using es6 features such as import and export since node doesnt know how to compile that one.
 
 -   using babel node
 
 ```
 ./node_modules/.bin/babel-node src/destructuring/<%FILE_NAME%>.sj
 ```
+**Note:** Use babel node always, that will compile any es6 features
 
 -   using make file
 

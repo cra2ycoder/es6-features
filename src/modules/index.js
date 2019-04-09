@@ -35,7 +35,7 @@ console.log(module.children[0].exports)
 
 // --------------------------------------------
 // TYPE 4: importing only default
-import Calendar from './Math'
+// import Calendar from './Math'
 
-const caln = new Calendar()
-console.log(caln.DAY_LIST)
+// const caln = new Calendar()
+// console.log(caln.DAY_LIST)

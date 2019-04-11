@@ -77,3 +77,21 @@ class ClassB extends ClassA {
     fn3() {}
 }
 ```
+
+-   object creation
+
+```
+class ClassName {
+    constructor(arg1, arg2) {
+        this.arg1 = arg1
+        this.arg2 = arg2
+    }
+    fn1() {}
+    fn2() {}
+    fn3() {}
+}
+
+const myClass = new ClassName(argVal1, argVal2)
+myClass.fn1()
+myClass.fn2()
+```

@@ -62,3 +62,16 @@ console.log(defaultParamAsFunction(9)) // 9
 
 console.log('/////////////////////////////////')
 ///////////////////////////////////////////
+
+/**
+ * @description
+ * de-structured object param
+ */
+
+function deStructuredFunction([x, y] = [1, 2], { z: z } = { z: 4 }) {
+    return x + y + z
+}
+
+console.log(deStructuredFunction()) // 7
+console.log('/////////////////////////////////')
+///////////////////////////////////////////

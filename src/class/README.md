@@ -5,7 +5,7 @@
 
 ## pieces
 
--   class declaration
+-   **class declaration**
 
 ```
 class ClassName {
@@ -13,7 +13,7 @@ class ClassName {
 }
 ```
 
--   getters and setters
+-   **getters and setters**
 
 ```
 class ClassName {
@@ -23,7 +23,7 @@ class ClassName {
 }
 ```
 
--   unnamed and named class
+-   **unnamed and named class**
 
 ```
 // unnamed class
@@ -38,7 +38,7 @@ var ClassName = class NewClassName {
 
 ```
 
--   static functions
+-   **static functions**
 
 ```
 class ClassName {
@@ -50,7 +50,7 @@ class ClassName {
 ClassName.fnName()
 ```
 
--   class extends
+-   **class extends**
 
 ```
 class ClassA {
@@ -78,7 +78,7 @@ class ClassB extends ClassA {
 }
 ```
 
--   object creation
+-   **object creation**
 
 ```
 class ClassName {

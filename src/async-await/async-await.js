@@ -66,13 +66,13 @@ const sequentialFlow = async () => {
     let slowTimer = new Date().getTime()
     const slow = await slowPromiseFunction()
 
-    let fastTimer = new Date().getTime()
-    const fast = await fastPromiseFunction()
-
     console.log(slow) // slowPromiseFunction
     console.log(getTimer(new Date().getTime(), slowTimer))
 
     console.log('/////////////////////////////')
+
+    let fastTimer = new Date().getTime()
+    const fast = await fastPromiseFunction()
 
     console.log(fast) // fastPromiseFunction
     console.log(getTimer(new Date().getTime(), fastTimer))
@@ -115,4 +115,4 @@ const concurrentFlowWithPromiseAll = async () => {
         .catch(err => err)
 }
 
-concurrentFlowWithPromiseAll()
+// concurrentFlowWithPromiseAll()

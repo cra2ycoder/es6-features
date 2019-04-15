@@ -17,7 +17,10 @@
         "url": "https://github.com/cra2ycoder/es6/issues"
     },
     "homepage": "https://github.com/cra2ycoder/es6#readme",
-    "dependencies": {},
+    "dependencies": {
+        "node-fetch": "^2.3.0",
+        "xmlhttprequest": "^1.8.0"
+    },
     "devDependencies": {
         "@babel/cli": "^7.4.3",
         "@babel/core": "^7.4.3",

@@ -43,3 +43,9 @@ fetch(url, options)
 -   https://github.github.io/fetch/
 -   https://www.npmjs.com/package/node-fetch
 -   https://developers.google.com/web/updates/2015/03/introduction-to-fetch
+
+## FAQ
+
+-   How do I cancel a fetch() request?
+    > At the moment there is no way to cancel a fetch, but this is being discussed on GitHub
+    > https://github.com/whatwg/fetch/issues/20

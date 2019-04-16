@@ -125,12 +125,6 @@ function fetchExample3() {
 console.log('/////////////////////////////////')
 
 /**
- * @example
- * passing request params
- * 1. Post Request
- */
-
-/**
  * @description
  * Javascript -> XMLHttpRequest
  * Jquery -> $.ajax
@@ -160,3 +154,24 @@ function fetchExample4() {
 // fetchExample4()
 
 console.log('/////////////////////////////////')
+
+/**
+ * @example
+ * passing request params
+ * 1. Post Request
+ */
+
+function fetchExample5() {
+    const options = {
+        method: 'get'
+        // headers: {
+        //     'Content-type': 'application/x-www-form-urlencoded; charset=UTF-8'
+        // }
+    }
+    fetch(resourceURL, options)
+        .then(res => res.json())
+        .then(data => console.log(data))
+        .catch(err => console.log(err))
+}
+
+fetchExample5()

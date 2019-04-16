@@ -12,6 +12,13 @@ yarn add node-fetch
 -   provides an interface for fetching resources
 -   it is similar to `XMLHttpRequest`
 -   provides more powerful and flexible features set
+-   for simple understanding
+
+```
+ Javascript -> XMLHttpRequest
+ Jquery -> $.ajax
+ Node -> node-fetch
+```
 
 ## life cycle
 

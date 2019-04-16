@@ -50,6 +50,9 @@ function fetchExample1() {
 
 console.log('/////////////////////////////////')
 
+/**
+ * @example
+ */
 function fetchExample2() {
     fetch(resourceURL)
         .then(res => {
@@ -82,5 +85,78 @@ function fetchExample2() {
 }
 
 // fetchExample2()
+
+console.log('/////////////////////////////////')
+
+/**
+ * @example 3
+ * chaining promises
+ */
+
+function fetchExample3() {
+    const fetchStatus = response => {
+        if (response.status >= 200 && response.status < 300) {
+            return Promise.resolve(response)
+        } else {
+            return Promise.reject(new Error(response.statusText))
+        }
+    }
+
+    const fetchJSON = response => {
+        return response.json()
+    }
+
+    const fetchData = data => {
+        console.log(data)
+    }
+
+    const fetchError = err => {
+        console.log(err)
+    }
+
+    fetch(resourceURL)
+        .then(fetchStatus)
+        .then(fetchJSON)
+        .then(fetchData)
+        .catch(fetchError)
+}
+
+// fetchExample3()
+console.log('/////////////////////////////////')
+
+/**
+ * @example
+ * passing request params
+ * 1. Post Request
+ */
+
+/**
+ * @description
+ * Javascript -> XMLHttpRequest
+ * Jquery -> $.ajax
+ * Node -> node-fetch
+ */
+function fetchExample4() {
+    const fr = fetch('https://ntryogep.sirv.com/myresumebk/mine.json')
+    // @life cycle 1: -> promise object has been created and it is in pending state
+
+    fr.then(res => {
+        console.log(res) // -> entire raw data of fetch
+        console.log(res.url) // -> a particular url that we given
+        console.log(res.status) // -> response status code such as 200, 300, 400 etc.,
+        console.log(res.statusText) // -> response status message
+        console.log(res.headers) // -> response headers
+
+        return res.json()
+    })
+        .then(data => {
+            console.log(data)
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
+
+// fetchExample4()
 
 console.log('/////////////////////////////////')

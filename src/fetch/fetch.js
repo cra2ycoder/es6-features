@@ -174,4 +174,17 @@ function fetchExample5() {
         .catch(err => console.log(err))
 }
 
-fetchExample5()
+// fetchExample5()
+
+/**
+ * @example 6
+ * get the response as plain text
+ */
+
+function fetchExample6() {
+    fetch(resourceURL)
+        .then(res => res.text())
+        .then(data => console.log(data))
+}
+
+// fetchExample6()

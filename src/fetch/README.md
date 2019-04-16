@@ -2,7 +2,7 @@
 
 **NOTE:**
 
-> XMLHttpRequest and node-fetch is not core one, to use that we need to install them accordingly
+> XMLHttpRequest and node-fetch is not core one in node, to use that we need to install them accordingly
 
 ```
 yarn add xmlhttprequest

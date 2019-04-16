@@ -1,5 +1,14 @@
 ## fetch
 
+**NOTE:**
+
+> XMLHttpRequest and node-fetch is not core one, to use that we need to install them accordingly
+
+```
+yarn add xmlhttprequest
+yarn add node-fetch
+```
+
 -   provides an interface for fetching resources
 -   it is similar to `XMLHttpRequest`
 -   provides more powerful and flexible features set

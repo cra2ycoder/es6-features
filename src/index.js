@@ -2,4 +2,5 @@
 // import '../interview/dsa/linearSearch'
 // import '../interview/dsa/binarySearch'
 // import '../interview/dsa/selectionSort'
-import '../interview/dsa/bubbleSort'
+// import '../interview/dsa/bubbleSort'
+import '../interview/dsa/insertionSort'

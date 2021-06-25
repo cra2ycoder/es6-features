@@ -12,6 +12,9 @@ let endIndex = list.length - 1
 let midIndex = 0
 let result = null
 
+/**
+ * binary search
+ */
 while (startIndex <= endIndex) {
     /**
      * to round the value from decimal

@@ -18,7 +18,7 @@ while (startIndex <= endIndex) {
      */
     midIndex = parseInt((startIndex + endIndex) / 2, 10)
 
-    const foundValue = list[midIndex]
+    let foundValue = list[midIndex]
 
     if (foundValue === findItem) {
         result = foundValue

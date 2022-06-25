@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/cra2ycoder/es6#readme",
   "dependencies": {
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^2.6.7",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
